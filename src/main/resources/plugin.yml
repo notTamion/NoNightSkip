@@ -1,0 +1,6 @@
+name: NoNightSkip
+version: '${project.version}'
+main: de.tamion.NoNightSkip
+api-version: 1.19
+authors: [Tamion]
+description: Removes the Time Skip when you sleep
