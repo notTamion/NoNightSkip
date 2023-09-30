@@ -11,5 +11,6 @@ public final class NoNightSkip extends JavaPlugin {
     public void onEnable() {
         PluginManager pluginManager = Bukkit.getPluginManager();
         pluginManager.registerEvents(new TimeSkipListener(), this);
+        Metrics metrics = new Metrics(this, 19005);
     }
 }
